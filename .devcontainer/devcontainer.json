@@ -1,0 +1,11 @@
+{
+    "name": "pwn-env",
+    "dockerPath": "/usr/bin/docker",
+    "build": {
+      "dockerfile": "../Dockerfile"
+    },
+    "containerName": "pwn-container",
+    "workspaceMount": "noMount",
+    "workspaceFolder": "/home/user",
+    "runArgs": ["--platform=linux/amd64"]
+}// 이거 적용 아직 안됨
